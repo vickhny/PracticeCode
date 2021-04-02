@@ -1,0 +1,184 @@
+Layered Architecture :
+1. https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html
+2. https://medium.com/java-vault/layered-architecture-b2f4ebe8d587
+
+Monolithic vs. SOA vs. Microservices
+1. https://www.linkedin.com/pulse/monolithic-vs-soa-microservices-aqib-javed-
+2. https://rubygarage.org/blog/monolith-soa-microservices-serverless
+3. https://medium.com/@SoftwareDevelopmentCommunity/what-is-service-oriented-architecture-fa894d11a7ec
+4. https://www.ibm.com/cloud/blog/soa-vs-microservices#:~:text=The%20main%20difference%20between%20SOA%20and%20microservices%3A%20Scope&text=To%20put%20it%20simply%2C%20service,when%20you%20neglect%20this%20difference.
+Note: Basic definition -
+Monolithic (Single Unit)- are single bundle of all the different services and usually have single deployment and we usually do a vertical scaling.
+SOA (Coarse-grained)- Similar kind of services are bundle into a specific service and that itself can be scaled individually.
+Microservices (Fine-grained)- are different variant of SOA in which application is made of small, independent or loosely coupled services.
+
+
+
+Design Pattern:
+1. https://refactoring.guru/design-patterns/java
+2. https://www.javatpoint.com/design-patterns-in-java
+
+ERD Diagram - https://www.guru99.com/er-diagram-tutorial-dbms.html
+
+Class Diagram - https://www.guru99.com/uml-class-diagram.html
+
+Sequence Diagram - https://www.guru99.com/interaction-collaboration-sequence-diagrams-examples.html
+
+Garbage Collection:
+1. https://stackify.com/what-is-java-garbage-collection/#:~:text=Java%20garbage%20collection%20is%20the,memory%20dedicated%20to%20the%20program.
+2. https://www.infoworld.com/article/2078645/jvm-performance-optimization-part-3-garbage-collection.html
+3. https://www.overops.com/blog/improve-your-application-performance-with-garbage-collection-optimization/
+4. https://dzone.com/articles/java-garbage-collection-3
+
+Memory Management:
+1. https://www.javatpoint.com/memory-management-in-java#:~:text=In%20Java%2C%20memory%20management%20is,management%20logic%20in%20our%20application.
+2. https://javarevisited.blogspot.com/2011/05/java-heap-space-memory-size-jvm.html#axzz6kKslSETW
+
+Processing Large File:
+https://www.java-success.com/processing-large-files-efficiently-java-part-1/
+
+SMTP? SMTP error?
+sechedule advertisement
+Microservice migration challenges
+Improve microservice performance
+Spring Batch
+Rabbit MQ
+Kafka
+websocket, webhooks and http streaming in Event Driven Arch..
+
+String Program:
+1. https://www.programcreek.com/2014/06/leetcode-shortest-palindrome-java/
+2. LeetCode
+3. https://www.geeksforgeeks.org/storage-of-string-in-java/#:~:text=In%20Java%2C%20strings%20are%20stored%20in%20the%20heap%20area.&text=Here%20the%20JVM%20checks%20the,reference%20to%20the%20same%20instance.
+
+Shallow and Deep Copy:
+1. https://dzone.com/articles/java-copy-shallow-vs-deep-in-which-you-will-swim
+2. https://howtodoinjava.com/java/collections/hashmap/shallow-deep-copy-hashmap/
+
+
+Microservices:  A variant of the service-oriented architecture structural style – arranges an application as a collection of loosely coupled services. In a microservices architecture, services are fine-grained and the protocols are lightweight.
+1. https://microservices.io/
+
+REST VS SOAP: https://www.guru99.com/comparison-between-web-services.html#:~:text=KEY%20DIFFERENCE,REST%20is%20an%20architectural%20pattern.&text=SOAP%20only%20works%20with%20XML,%2C%20XML%2C%20HTML%20and%20JSON.
+
+WHAT IS POM IN MAVEN ?
+1. https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#:~:text=A%20Project%20Object%20Model%20or,Maven%20to%20build%20the%20project.&text=When%20executing%20a%20task%20or,POM%20in%20the%20current%20directory.
+
+DEPENDENCY vs DEPENDENCY MANAGEMENT
+1. https://jainamit333.wordpress.com/2017/08/05/difference-between-dependency-management-and-dependencies-in-maven/
+
+SQL Questions:
+1. https://www.techmixing.com/2019/04/sql-joins-tricky-interview-questions.html
+2. JOIN vs UNION (https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/#:~:text=UNION%20in%20SQL%20is%20used,results%20into%20new%20distinct%20rows.&text=JOIN%20combines%20data%20from%20many,a%20matched%20condition%20between%20them.&text=It%20combines%20data%20into%20new%20columns.)
+Both joins and unions can be used to combine data from one or more tables into a single results. ... Whereas a join is used to combine columns from different tables, the union is used to combine rows.
+3. RANK, DENSRANK and ROWNUM
+4. WHERE vs HAVING
+The difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
+5. https://learnsql.com/blog/how-to-join-3-tables-or-more-in-sql/
+6. https://javarevisited.blogspot.com/2015/11/2nd-highest-salary-in-oracle-using-rownumber-rank-example.html#axzz6nnh9XziJ
+
+Extra-
+1. https://www.programcreek.com/2014/03/leetcode-best-time-to-buy-and-sell-stock-iv-java/
+
+Graph Traversal:
+1. Shortest Path (Directed/Undirected)
+2. Longest Path (Directed/Undirected)
+3. BFS/DFS
+
+Tree Traversal:
+1. Pre. Post and Inorder (Conversion From pre post and Inorder)
+2. Horizontal, Vertical, LevelOrder, BFS, DFS
+
+Priority Queue:
+1. Priority Blocking Queue: https://www.geeksforgeeks.org/priorityblockingqueue-class-in-java/
+2. https://howtodoinjava.com/java/collections/java-priorityblockingqueue/
+
+Blocking Queue:
+1. ArrayBlockingQueue
+2. DelayQueue
+3. LinkedBlockingQueue
+4. PriorityBlockingQueue
+5. SynchronousQueue
+6. http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html
+
+System Design:
+1. https://github.com/puncsky/system-design-and-architecture
+2. https://www.javastructures.com/design/elevator
+3. https://www.geeksforgeeks.org/design-a-chess-game/
+
+Most important topics for Distributed transaction in microservices-
+Note: Every distributed system at some point of time needs to agree upon some decision or some value and this process is call as consensus. There are so many algorithm and mythologies are there to help us to implement consensus. e.g RAFT, Saga, Paxis, 2-Phase commit, Narayan LRA.
+2-Phase commit - works perfectly fine in distributed environment but it creates latency since it uses lock in prepare and commit stages that's why not prefer to use sometimes.
+
+1. Saga Pattern -
+	i. Choreography - Based on action define for event microservices works.
+	ii. Orchestration - Create central Orchestration Service which handles the control flow between microservices.
+3. Check the use case if required add two phase commit with Saga to manage the data consistency.
+4. Redis Cache
+	i. use case in distributed environment.
+	ii. Multi cluster based redis server.
+	iii. Maintain TTL for server.
+	iv. Follow model of BookMyShow app to understand
+5. Understand different types of Locking mechanism i.e Pessimistic lock (When multiple many users trying to modify same data) and Optimistic lock (When more retrieval and less modification) and there use case.
+6. Use publisher to publish data to DB and use API to read that data from DB and also cache that data with TTL based on Modification rate of data. Publish data to DB in fixed interval to get latest value of data in based on use case.
+
+Collections and time complexity:
+1. https://bikashdubey42.medium.com/time-complexity-of-java-collections-api-c65baa784e21
+2. https://yogeshkkhichi.medium.com/time-and-space-complexity-of-collections-5a00c7b1d32b
+3. https://anmolsehgal.medium.com/concurrenthashmap-internal-working-in-java-b2a1a48c7289
+
+Multithreading:
+1. https://www.guru99.com/multithreading-java.html#:~:text=MULTITHREADING%20in%20Java%20is%20a,runs%20parallel%20to%20each%20other.
+2.https://www.youtube.com/watch?v=8Je1W82vwYM
+
+Code Review :
+1. Use Stack
+2. HashMap and ConcurrentHashmap
+3. Byte Array
+4. Stream operations ,i.e. input, output, file etc
+5. Thread and there initialization techniques
+6. Exception handling in code
+7. Check Access Specifier for methods
+
+
+Thread:
+1. https://javarevisited.blogspot.com/2014/07/top-50-java-multithreading-interview-questions-answers.html#axzz6jfbD0B4v
+2. https://www.geeksforgeeks.org/print-even-and-odd-numbers-in-increasing-order-using-two-threads-in-java/
+
+Publisher Subscriber Design Pattern
+1. http://www.code2succeed.com/pub-sub/
+2. https://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/
+
+Git
+1. Basic commands
+2. Cherry Pick
+3. Fork
+
+Kafka:
+1. https://medium.com/@patelharshali136/apache-kafka-tutorial-kafka-for-beginners-a58140cef84f
+2. https://medium.com/@ujjawal.dixit/kafka-101-broker-producers-consumers-topics-and-partitions-b9bcbbdbf080
+3. https://medium.com/faun/tutorial-validate-your-data-pipeline-using-schema-registry-and-kafka-streams-523595d7fe3d
+4. https://www.upsolver.com/blog/kafka-versus-rabbitmq-architecture-performance-use-case
+
+RabbitMQ:
+1. https://www.cloudamqp.com/blog/2015-05-18-part1-rabbitmq-for-beginners-what-is-rabbitmq.html
+2. https://www.javainuse.com/spring/spring-boot-rabbitmq-hello-world
+
+Elevator Design:
+
+1. https://medium.com/system-designing-interviews/design-a-elevator-system-fc5832ca0b8b
+2. https://github.com/seahrh/liftoo
+
+
+
+Programs:
+
+1. Given A and B two interval lists, A has no overlap inside A and B has no overlap inside B. Write the function to merge two interval lists, output the result with no overlap. Ask for a very efficient solution
+
+   A naive method can combine the two list, and sort and apply merge interval in the leetcode, but is not efficient enough.
+
+   For example,
+   A: [1,5], [10,14], [16,18]
+   B: [2,6], [8,10], [11,20]
+
+   output [1,6], [8, 20]
